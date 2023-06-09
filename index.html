@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/palettes.css">
+  <link rel="stylesheet" href="index.css">
+
+  <title>Multimedia</title>
+</head>
+<body>
+
+  <header class="header">
+    <video
+      class="header-video"
+      autoplay
+      muted
+      loop
+      src="assets/hero-video.mp4"
+    >
+    </video>
+    
+    <div class="header-foreground">
+      <h1 class="gradient-background">Hello World</h1>
+    
+      <p class="glass-frosted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque aperiam tempore dolor maiores repellendus doloribus deserunt! Qui commodi, dignissimos dolore deserunt eligendi ea, quae dolores neque distinctio at sint.</p>
+    
+      <p class="glass-smoked">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eos dolorum repellendus repellat facilis facere earum fugit similique, eius reprehenderit dolores quam rem laborum! Excepturi distinctio nesciunt laboriosam voluptatibus officia.</p>
+    </div>
+  </header>
+
+
+  <section>
+    <h1>Youtube Vidoes</h1>
+    <ul class="video-list">
+      <li>
+        <iframe
+          class="video-youtube"
+          src="https://www.youtube-nocookie.com/embed/YUDTlS6Qzbs?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </li>
+  
+      <li>
+        <iframe
+          class="video-youtube"
+          src="https://www.youtube-nocookie.com/embed/YUDTlS6Qzbs?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </li>
+  
+      <li>
+        <iframe
+          class="video-youtube"
+          src="https://www.youtube-nocookie.com/embed/YUDTlS6Qzbs?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h1>Picture Element</h1>
+    <picture>
+      <source 
+        media="(min-width: 650px)"
+        srcset="assets/large.jpg"
+      >
+      <source 
+        media="(min-width: 465px)"
+        srcset="assets/medium.jpg"
+      >
+      <img
+        srcset="assets/small.jpg"
+        alt="a cute kitten">
+   </picture>
+  </section>
+
+  <footer>
+    <h1>&copy; Lars Gunnar</h1>
+    <iframe
+      class="footer-map"
+      title="Inline Frame Example"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+  </footer>
+</body>
+</html>

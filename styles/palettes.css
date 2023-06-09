@@ -1,0 +1,25 @@
+:root {
+  --color-white: #FDFDFD;
+
+  --color-seagreen: #264653;
+  --color-algeagreen: #2A9D8F;
+  --color-meadowyellow: #E9C46A;
+  --color-meadoworange: #F4A261;
+
+  /*  */
+  /* https://tailwindcss.com/docs/customizing-colors */
+  --color-fuchsia-50: #fdf4ff;
+  --color-fuchsia-100: #fae8ff;
+  --color-fuchsia-200: #f5d0fe;
+  --color-fuchsia-300: #f0abfc;
+  --color-fuchsia-400: #e879f9;
+  --color-fuchsia-500: #d946ef;
+  --color-fuchsia-600: #c026d3;
+  --color-fuchsia-700: #a21caf;
+  --color-fuchsia-800: #86198f;
+  --color-fuchsia-900: #701a75;
+  --color-fuchsia-950: #4a044e;
+
+  --gradient-primary: linear-gradient(#e66465, #9198e5);
+  --gradient-secondary: linear-gradient(#b20bcf, #1426f0);
+}

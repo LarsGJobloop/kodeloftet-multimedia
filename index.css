@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: var(--color-algeagreen);
+}
+
+/* Header */
+.header {
+  position: relative;
+  overflow: hidden;
+}
+
+.header-video {
+  width: 100vw;
+  position: absolute;
+}
+
+.header-foreground {
+  color: var(--color-white)
+}
+
+
+/* IFrames */
+.video-youtube {
+  aspect-ratio: 4 / 3;
+  width: 85%;
+}
+
+.footer-map {
+  width: 90vw;
+  min-height: 100vh;
+}
+
+/* Materials */
+.glass-frosted {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.glass-smoked {
+  /* From https://css.glass */
+  background: rgba(63, 62, 62, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.8px);
+  -webkit-backdrop-filter: blur(8.8px);
+}
